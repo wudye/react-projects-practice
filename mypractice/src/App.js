@@ -1,4 +1,11 @@
-import FeatureFlagsGlobalState from './components/15-feature-flags/context/index.jsx';
+
+
+
+function App() {
+  return (
+    <div className="App">
+      {/*      
+      import FeatureFlagsGlobalState from './components/15-feature-flags/context/index.jsx';
 import FeatureFlags from './components/15-feature-flags/index.jsx';
 import TikTakToe from './components/14-tik-tak-toe/index.jsx';
 import SearchAuto from './components/13-search-auto/index.jsx';
@@ -16,15 +23,9 @@ import UseOutsideClickTest from './components/17-use-outside-click/index.jsx';
 import UseWindowResize from './components/18-use-window-resize/index.jsx';
 import UseWindowResizeTest from './components/18-use-window-resize/test.jsx';
 import ScrollToTop from './components/19-scroll-to-top/index.jsx';
-
+import Weather from './components/21-weather-api/weather/index.jsx';
 
 import ScrollParticularSection from './components/20-scroll-particular-section/index.jsx';
-
-
-function App() {
-  return (
-    <div className="App">
-      {/*      
         <Accordion /> 
         <RandomColor></RandomColor>
         <StarRating></StarRating>
@@ -51,13 +52,19 @@ function App() {
  <UseWindowResizeTest />
 
 <ScrollToTop />
+<ScrollParticularSection />
 
+
+<Weather />
       */}
 
 
 
 
-<ScrollParticularSection />
+
+<h1 className="text-6xl font-bold underline">
+      Hello world!
+    </h1>
     </div>
   )
 }
